@@ -2601,7 +2601,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1153876219
+--- !u!1 &1252030859
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2609,10 +2609,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1153876220}
-  - component: {fileID: 1153876223}
-  - component: {fileID: 1153876222}
-  - component: {fileID: 1153876221}
+  - component: {fileID: 1252030860}
+  - component: {fileID: 1252030863}
+  - component: {fileID: 1252030862}
+  - component: {fileID: 1252030861}
   m_Layer: 5
   m_Name: ArrowLeft
   m_TagString: Untagged
@@ -2620,13 +2620,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1153876220
+--- !u!224 &1252030860
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153876219}
+  m_GameObject: {fileID: 1252030859}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -2636,16 +2636,16 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 179.397}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.602661, y: -2.1238403}
-  m_SizeDelta: {x: 105.8456, y: 116.0573}
+  m_AnchoredPosition: {x: 2.9003906, y: 3.2997742}
+  m_SizeDelta: {x: 105.8456, y: 104.4824}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1153876221
+--- !u!114 &1252030861
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153876219}
+  m_GameObject: {fileID: 1252030859}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -2679,7 +2679,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1153876222}
+  m_TargetGraphic: {fileID: 1252030862}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -2695,13 +2695,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1153876222
+--- !u!114 &1252030862
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153876219}
+  m_GameObject: {fileID: 1252030859}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -2715,7 +2715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d38658b7179b89d47b148409deae4bdf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5ae9d4279a621d64d808d8c22119458a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2725,13 +2725,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &1153876223
+--- !u!222 &1252030863
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153876219}
+  m_GameObject: {fileID: 1252030859}
   m_CullTransparentMesh: 1
 --- !u!1 &1264462451
 GameObject:
@@ -3012,7 +3012,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1153876220}
+  - {fileID: 1252030860}
   m_Father: {fileID: 991280714}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 179.397}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3063,19 +3063,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1377131866}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: AdsManager, Assembly-CSharp
-        m_MethodName: ShowInterstitialAdPostScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1377131866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3381,8 +3369,8 @@ Transform:
   m_GameObject: {fileID: 1632820230}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 178, y: 3, z: 0}
-  m_LocalScale: {x: 168.08136, y: 97.15812, z: 0.75829387}
+  m_LocalPosition: {x: 217, y: -6, z: 0}
+  m_LocalScale: {x: 181.10767, y: 101.48165, z: 0.75829387}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 604359215}

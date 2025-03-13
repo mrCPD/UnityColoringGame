@@ -59,6 +59,8 @@ public class MüzikIcon : MonoBehaviour
 
     private void UpdateButtonIcon()
     {
+        if (musicButton == null)
+            return;
         if (!isMuted)
         {
             soundOnIcon.enabled = true;
